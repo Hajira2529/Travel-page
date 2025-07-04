@@ -367,12 +367,10 @@
     font-family: "Poppins", sans-serif;
     font-weight: 200;
     font-style: normal;
-    margin: 2rem;
-    padding: 3px;
     padding-left: 40px;
     padding-right: 40px;
-    margin-right: 20rem;
-    margin-left: 20rem;
+    margin-right: 40rem;
+    margin-left: 40rem;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -383,6 +381,7 @@
     flex-direction: row;
     justify-content: center;
     padding: 1rem;
+    gap: 10px;
 }
 
 .deals-box1234 {
@@ -474,4 +473,12 @@
     border-radius: 3px;
     border: none;
     padding: 5px;
+}
+
+.deals-arrow {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
 }
