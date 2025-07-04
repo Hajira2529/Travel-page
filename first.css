@@ -371,8 +371,8 @@
     padding: 3px;
     padding-left: 40px;
     padding-right: 40px;
-    margin-right: 16rem;
-    margin-left: 16rem;
+    margin-right: 20rem;
+    margin-left: 20rem;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -381,15 +381,97 @@
 .deals-boxes {
     display:flex;
     flex-direction: row;
-
+    justify-content: center;
+    padding: 1rem;
 }
 
 .deals-box1234 {
     display: flex;
     flex-direction: column;
+    background-color: #66666608;
+    border-radius: 1rem;
 
 }
 
 .deals-image {
-    object-fit: fit;
+    object-fit: cover;
+    height: 200px;
+    width: 230px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.deals-box1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+
+}
+
+.madrid {
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-left: 1rem;
+}
+
+.rating {
+    margin-left: 5.5rem;
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: var(--para);
+    height: 15px;
+    gap:5px;
+    margin-top: 5px;
+}
+
+.rate {
+    font-size: 14px;
+}
+
+.location1 {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+
+.location-icon {
+    height: 20px;
+    width: 20px;
+}
+
+.spain {
+    display: flex;
+    flex-direction:row;   
+}
+
+.old-price {
+    margin-top: 2rem;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    margin-left: 3rem;
+}
+
+.new-price {
+    margin-top: 26px;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    margin-left: 1.5rem;
+    color: var(--primary);
+    background-color: #fa74361e;
+    border-radius: 3px;
+    border: none;
+    padding: 5px;
 }
