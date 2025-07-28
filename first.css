@@ -693,10 +693,12 @@
 
 .session-five {
     background-color: var(--secondary-bg);
+    display: flex;
+    flex-direction: row;
 }
 
 .five-part-one {
-    width:50%;
+    width:20%;
     margin-top: 10rem;
     margin-left: 15rem;
     font-size: 44px;
@@ -725,4 +727,29 @@
     gap: 1rem;
     margin-top:2rem;
 
+}
+
+.five-part-two {
+    margin-top:6rem;
+    margin-left:10rem;
+}
+
+.white-box {
+    background-color: var(--bg);
+    width: 350px;
+    padding: 40px;
+    margin: 20px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 28px;
+    border-radius: 10px;
+}
+
+.mike-author {
+    margin-top:1rem;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom:1rem;
 }
