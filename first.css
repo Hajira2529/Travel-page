@@ -695,6 +695,7 @@
     background-color: var(--secondary-bg);
     display: flex;
     flex-direction: row;
+    padding-bottom: 3rem;
 }
 
 .five-part-one {
@@ -732,6 +733,8 @@
 .five-part-two {
     margin-top:6rem;
     margin-left:10rem;
+    display: flex;
+    flex-direction: row;
 }
 
 .white-box {
@@ -753,3 +756,43 @@
     font-size: 16px;
     margin-bottom:1rem;
 }
+
+.grey-box {
+    background-color: #afaeae14;
+    border: .5px solid rgba(199, 198, 198, 0.133);
+    width: 350px;
+    padding: 40px;
+    margin: 20px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    border-radius: 10px;
+}
+
+.swril-flight {
+    height: 180px;
+    width: 130px;
+}
+
+.session-six {
+    background-color: var(--bg);
+    display: flex;
+    flex-direction: row;
+}
+
+.six-head {
+    font-size: 44px;
+    font-family: "Volkhov", serif;
+    display: flex;
+    padding-top: 5rem;
+    margin-left: 28rem;
+}
+
+.six-head spam{
+    color: var(--primary);
+    margin-left: 12px;
+}
+
+
