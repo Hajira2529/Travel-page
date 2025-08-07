@@ -864,6 +864,7 @@
 
 .block-seven {
     margin-bottom:2rem;
+    margin-top: -5rem;
 }
 
 .orange-tree {
@@ -901,4 +902,124 @@
     height:40px;
     border: none;
     border-radius: 0.5rem;
+}
+
+.last-block {
+    display:flex;
+    flex-direction: row;
+}
+
+.first-set {
+    display: flex;
+    flex-direction:column;
+    margin-left: 10rem;
+    margin-top: 2rem;
+}
+
+.first-head {
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Volkhov", serif;
+}
+
+.last-para {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: #666666;
+    margin-top: 2rem;
+    margin-right: 20rem;
+    line-height: 28px;
+    text-wrap: wrap;
+    width:290px;
+
+}
+
+.social-media {
+    margin-top: 1rem;
+}
+
+.second-head {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 1rem;
+}
+
+.second-set {
+    margin-left: 7rem;
+    margin-top: 2rem;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: #666666;
+}
+
+.third-set {
+    margin-left:5rem;
+    margin-top:2rem;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: #666666;
+}
+
+.third-head {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 1rem;
+}
+
+.fourth-set {
+    margin-left:5rem;
+    margin-top:2rem;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: #666666;
+}
+
+.fourth-head {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 1rem;
+}
+
+.p-tag {
+    margin-top: 0.8rem;
+}
+
+.line {
+    margin-top: 0.5rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.final {
+    margin-left: 10rem;
+    margin-bottom: 3rem;
+    margin-top: 1.3rem;
+    display:flex;
+    flex-direction: row;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    color: #666666;
+    gap:41.6rem;
 }
