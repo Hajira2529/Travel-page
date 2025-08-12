@@ -394,6 +394,10 @@
     border-radius: 1rem;
 }
 
+.deals-box1234:hover {
+    display
+}
+
 .deals-image {
     object-fit: cover;
     height: 230px;
@@ -1002,6 +1006,11 @@
 
 .p-tag {
     margin-top: 0.8rem;
+}
+
+.p-tag:hover {
+    font-size: 16px;
+    color:blue;
 }
 
 .line {
