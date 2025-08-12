@@ -394,9 +394,6 @@
     border-radius: 1rem;
 }
 
-.deals-box1234:hover {
-    display
-}
 
 .deals-image {
     object-fit: cover;
@@ -406,6 +403,27 @@
     border-top-right-radius: 10px;
     box-shadow: #666666;
 }
+
+.hover-image {
+    display:none;
+}
+
+.testing {
+    display:block;
+}
+
+.testing:hover {
+    display:none;
+}
+
+.hover-image:hover {
+    display:flex;
+    height: 230px;
+    width: 230px;
+    background-color: #FA7436;
+    object-fit: cover;
+}
+
 
 .deals-box1{
     display: flex;
